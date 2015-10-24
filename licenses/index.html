@@ -22,7 +22,7 @@
   <ol>
     <li>
 
-        <a href="/">Home</a>
+        <a href="/choosealicense_jp/">Home</a>
 
     </li>
   </ol>
@@ -50,7 +50,7 @@
     </h3>
 
     <p class="license-family-description">
-      寛容なライセンスですが、著作者から使用者に対して、特許の使用許可を出しているという表現がなされています。
+      寛容なライセンスですが, 著作者から使用者に対して, 特許の使用許可を出しているという表現がなされています。
     </p>
   </div>
 
@@ -70,11 +70,11 @@
         <tr>
 
 
-          <th class="label">要請されること</th>
+          <th class="label">Required</th>
 
-          <th class="label">可能であること</th>
+          <th class="label">Permitted</th>
 
-          <th class="label">禁止されていること</th>
+          <th class="label">Forbidden</th>
 
         </tr>
         <tr>
@@ -93,7 +93,7 @@
 
                     <li class="include-copyright">
                       <span class="license-sprite"></span>
-                      ライセンスと、著作者のコピーライト表記
+                      License and copyright notice
                     </li>
 
 
@@ -223,7 +223,11 @@
       </a>
     </h3>
 
-    <p class="license-family-description">GPL is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. There are multiple variants of the GPL, each with different requirements.</p>
+    <p class="license-family-description">
+      GPLは最も広く使用されているフリーソフトウェアのライセンスで、強いコピーレフトが要求されます。
+      (コピーレフトとは)改変した成果物を配布する際には、そのソースコードを、同じライセンスのもとで利用できるようにしなければなりません
+      GPLにはいくつかの亜種が有り、各々で要請されることが違っています。
+    </p>
   </div>
 
   <div class="license-details">
@@ -2622,6 +2626,7 @@
     <script src="http://choosealicense.com/assets/vendor/qtip2/jquery.qtip.min.js"></script>
     <script src="http://choosealicense.com/assets/vendor/zeroclipboard/ZeroClipboard.min.js"></script>
     <script >
+    <!-- 少々ダサいですが ./description.js を phpなどで　echo json_encode(json_decode(file_get_contents('./description.js')), JSON_UNESCAPED_UNICODE); とやると, この文字列が得られます -->
       window.annotations = {"required":[{"description":"コードとともにライセンスのコピーとコピーライトの表記を含めてください.","label":"License and copyright notice","tag":"include-copyright"},{"description":"コードに対する主な改変内容を明示してください.","label":"State Changes","tag":"document-changes"},{"description":"ソフトウェアを配布する際には, ソースコードが利用可能でなければなりません. LGPLもしくはOSL3.0の場合, ライブラリのソースコード(プログラム全体ではなくて良い)が利用可能でなければなりません.","label":"Disclose Source","tag":"disclose-source"},{"description":"ネットワーク越しにソフトウェアを操作したユーザーにもそのソフトウェアのソースコードを受け取り権利があります.","label":"Network Use is Distribution","tag":"network-use-disclose"},{"description":"ライブラリであればオープンソースでないアプリケーションに対しても使用できる可能性があります.","label":"Library usage","tag":"library-usage"},{"description":"ソフトウェアに変更を加えた場合, 元とは違う名前をつけてください.","label":"Rename","tag":"rename"}],"permitted":[{"description":"そのソフトウェアおよびその改編版は商用で使用してもよいです.","label":"Commercial Use","tag":"commercial-use"},{"description":"このソフトウェアを改編してもよいです.","label":"Modification","tag":"modifications"},{"description":"このソフトウェアを再配布してもよいです.","label":"Distribution","tag":"distribution"},{"description":"ソフトウェアを改編し, 第3者へと配布する際に, 元のライセンスにない二次ライセンスを付与してもよいです.","label":"Sublicensing","tag":"sublicense"},{"description":"ソフトウェアを配布せずに使用したり改編したりしてもよいです.","label":"Private Use","tag":"private-use"},{"description":"このライセンスには著作者から使用者に対して特許権の使用許可という表現が存在します.","label":"Patent Grant","tag":"patent-grant"}],"forbidden":[{"description":"全てのライセンスにとって暗黙のことですが, このライセンスには著作者の名前やロゴやトレードマークを使用してはならないことが明示されています.","label":"Use Trademark","tag":"trademark-use"},{"description":"ソフトウェアは保証無しで提供され, 著作者やライセンス所持者に対してソフトウェアによって発生した損害に対する責任を求めることはできません.","label":"Hold Liable","tag":"no-liability"},{"description":"ソフトウェアを改編し第3者に配布する際に, 元のライセンスに含まれていない二次ライセンスを付与することはできません.","label":"Sublicensing","tag":"no-sublicense"},{"description":"このソフトウェアは改変禁止です.","label":"Modification","tag":"modifications"},{"description":"このソフトウェアを配布してはいけませんYou may not distribute this software.","label":"Distribution","tag":"distribution"},{"description":"ソフトウェアを改編し第3者に配布する際に, 元のライセンスに含まれていない二次ライセンスを付与することはできません.","label":"Sublicensing","tag":"sublicense"}]}
     </script>
     <script src="http://choosealicense.com/assets/js/app.js"></script>
